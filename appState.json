@@ -1,0 +1,103 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "fc551bfa-39e1-4927-92ac-151616de8155": {
+        "id": "fc551bfa-39e1-4927-92ac-151616de8155",
+        "parent": null,
+        "name": "testindu30.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testindu30.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameindunilqaany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "fc551bfa-39e1-4927-92ac-151616de8155"
+    ],
+    "currentFileId": "fc551bfa-39e1-4927-92ac-151616de8155",
+    "resources": {
+      "apigusEast1sachithraAPInameindunilqaany": {
+        "name": "apigusEast1sachithraAPInameindunilqaany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/indunil/qa": "g0wf0o",
+            "/indunil": "gorzsi",
+            "/indunil/qa/sns": "l6n32k",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/indunil/qa",
+          "resourceName": "indunil/qa",
+          "resourceId": "g0wf0o",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test112",
+          "stageDeploymentId": "xhu7tm",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testindu30",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585558562797
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testindu30",
+      "url": "https://github.com/Indunil1992/testindu30"
+    }
+  }
+}
