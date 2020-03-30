@@ -26,7 +26,16 @@
             "resourceName": "apigusEast1sachithraAPInameindunilqaany",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "8ed7407d-2acc-46c0-82ed-157654466d9f": {
+            "id": "8ed7407d-2acc-46c0-82ed-157654466d9f",
+            "name": "Test event",
+            "functionId": "fc551bfa-39e1-4927-92ac-151616de8155",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -71,6 +80,14 @@
           "selectedIdentity": "sachithrarajapakse1992@gmail.com",
           "projectRegion": "us-east-1"
         }
+      },
+      "ses-indunil+142@adroitlogic.com": {
+        "name": "ses-indunil+142@adroitlogic.com",
+        "type": "SES",
+        "config": {
+          "selectedIdentity": "indunil+142@adroitlogic.com",
+          "projectRegion": "us-east-1"
+        }
       }
     },
     "customTemplate": {
@@ -107,7 +124,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585558805452
+    "lastSave": 1585560121756
   },
   "VCS_STATE": {
     "provider": "GitHub",

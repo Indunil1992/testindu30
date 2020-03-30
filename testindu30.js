@@ -4,17 +4,18 @@ const ses = new AWS.SES();
 exports.handler = async (event) => {
     try {
         let data = await ses.sendEmail({
-            Source: "sachithrarajapakse1992@gmail.com",
+            Source: "indunil+142@adroitlogic.com",
             Destination: {
-                ToAddresses: ['indunil@adroitlogic.com', 'indunil+34@adroitlogic.com']
+                ToAddresses: ['sachithrarajapakse1992@gmail.com'],
+                CcAddresses: ['indunil@adroitlogic.com']
             },
             Message: {
                 Subject: {
-                    Data: "hi (to)"
+                    Data: "hi cc"
                 },
                 Body: {
                     Text: {
-                        Data: "test 1"
+                        Data: ""
                     }
                 }
             }
@@ -23,6 +24,7 @@ exports.handler = async (event) => {
     } catch (err) {
         // error handling goes here
     };
+
 
     return { "message": "Successfully executed" };
 };
