@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "testindu30.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 5
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -63,6 +63,14 @@
           "stageDeploymentId": "xhu7tm",
           "mode": 1
         }
+      },
+      "ses-sachithrarajapakse1992@gmail.com": {
+        "name": "ses-sachithrarajapakse1992@gmail.com",
+        "type": "SES",
+        "config": {
+          "selectedIdentity": "sachithrarajapakse1992@gmail.com",
+          "projectRegion": "us-east-1"
+        }
       }
     },
     "customTemplate": {
@@ -80,7 +88,15 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -91,7 +107,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585558562797
+    "lastSave": 1585558805452
   },
   "VCS_STATE": {
     "provider": "GitHub",
