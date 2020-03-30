@@ -7,15 +7,15 @@ exports.handler = async (event) => {
             Source: "indunil+142@adroitlogic.com",
             Destination: {
                 ToAddresses: ['sachithrarajapakse1992@gmail.com'],
-                CcAddresses: ['indunil@adroitlogic.com']
+                BccAddresses: ['indunil@adroitlogic.com']
             },
             Message: {
                 Subject: {
-                    Data: "hi cc"
+                    Data: "hi bcc"
                 },
                 Body: {
                     Text: {
-                        Data: ""
+                        Data: "bcc"
                     }
                 }
             }
@@ -26,5 +26,5 @@ exports.handler = async (event) => {
     };
 
 
-    return { "message": "Successfully executed" };
+    return { "message": "Successfully executed:bcc" };
 };
